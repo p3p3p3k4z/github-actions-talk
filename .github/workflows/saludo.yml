@@ -3,7 +3,7 @@ name: Saludo en cada push
 on:
   push:
     branches:
-      - main  # O la rama que estés usando actualmente
+      - main 
 
 jobs:
   hola:
@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Saludo personalizado
-        run: echo "👋 ¡Hola desde GitHub Actions, soy Mario!"
+        run: echo "¡Hola desde GitHub Actions, soy Mario ^!"
